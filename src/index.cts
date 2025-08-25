@@ -1,9 +1,8 @@
-import _t = require("@babel/types");
+import t = require("@babel/types");
 import g = require("@babel/generator");
 import p = require("@babel/parser");
 
-namespace tools {
-  export const t = _t;
+namespace b {
   export const generate = g.generate;
   export const CodeGenerator = g.CodeGenerator;
   export type GeneratorOptions = g.GeneratorOptions;
@@ -23,4 +22,4 @@ namespace tools {
   export type TypeScriptPluginOptions = p.TypeScriptPluginOptions;
 }
 
-export = tools;
+export = { b, t };

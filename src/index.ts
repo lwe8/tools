@@ -1,9 +1,8 @@
-import * as _t from "@babel/types";
+import * as t from "@babel/types";
 import * as p from "@babel/parser";
 import * as g from "@babel/generator";
 
-namespace tools {
-  export const t = _t;
+namespace b {
   export const generate = g.generate;
   export const CodeGenerator = g.CodeGenerator;
   export type GeneratorOptions = g.GeneratorOptions;
@@ -23,4 +22,4 @@ namespace tools {
   export type TypeScriptPluginOptions = p.TypeScriptPluginOptions;
 }
 
-export default tools;
+export default { b, t };
