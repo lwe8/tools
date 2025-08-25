@@ -15,5 +15,5 @@ npm i -D @lwe8/tools
 ```
 
 ```js
-import tools from "@lwe8/tools";
+import * as tools from "@lwe8/tools";
 ```
